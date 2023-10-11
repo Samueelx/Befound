@@ -18,21 +18,21 @@ function Homepage() {
           <img
             src="/dating-img-2.jpg"
             alt="Dating Image"
-            className="w-3/4 rounded-b-full rounded-t-full sm:mx-auto"
+            className="w-3/4 rounded-b-full rounded-t-full mx-auto"
           />
         </div>
       </div>
-      <div className="md:flex gap-8 justify-evenly my-32 py-8 md:flex-row sm:flex-col relative">
+      <div className="flex flex-col md:flex-row gap-8 md:justify-evenly my-32 py-8 relative">
         <div className="">
-          <div className="h-20 bg-white text-center w-96 rounded-l-full rounded-tr-full absolute z-50 top-16 left-12">
-            <p className="align-text-bottom py-2">
-              We have more than 1500+ five star reviews
+          <div className="md:h-20 md:w-96 h-16 w-60 bg-white text-center rounded-l-full rounded-tr-full absolute z-50 top-12 right-40 md:left-1 md:top-8 shadow-md">
+            <p className="align-text-bottom py-2 font-extralight">
+              We have more than <span className="font-bold">1500+</span> five star reviews
             </p>
           </div>
           <img
             src="dating-img-1.jpg"
             alt="Dating Image"
-            className=" md:w-2/3 md:h-80 sm:w-2/4 sm:h-5/6 rounded-t-full sm:mx-auto opacity-90"
+            className=" md:w-2/3 md:h-80 w-2/4 h-72 rounded-t-full mx-auto opacity-90"
           />
         </div>
         <div className="">
@@ -41,11 +41,11 @@ function Homepage() {
               We are also available on both platforms!
             </p>
           </div>
-          <div>
-            <button className="bg-white hover:bg-gray-200 text-gray-800 font-extralight py-3 px-6 rounded border-solid border-black border mx-4">
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <button className="bg-white hover:bg-gray-200 text-gray-800 font-extralight py-3 px-6 rounded border-solid border-black border mx-4 my-4 flex-1 md:flex-none w-64">
               <div className="flex">
                 <div className="mr-3">
-                  <FaApple className="block ml-1 text-5xl" />
+                  <FaApple className="block ml-1 text-4xl md:text-5xl" />
                 </div>
                 <div>
                   Download from <br />
@@ -54,10 +54,10 @@ function Homepage() {
               </div>
             </button>
 
-            <button className="bg-white hover:bg-gray-200 text-gray-800 font-extralight py-3 px-6 rounded border-solid border-black border mx-4">
+            <button className="bg-white hover:bg-gray-200 text-gray-800 font-extralight py-3 px-6 rounded border-solid border-black border mx-4 my-4 flex-1 md:flex-none w-64">
               <div className="flex">
                 <div className="mr-3">
-                  <FaGooglePlay className="block ml-1 text-5xl" />
+                  <FaGooglePlay className="block ml-1 text-4xl md:text-5xl" />
                 </div>
                 <div>
                   Download from <br />
