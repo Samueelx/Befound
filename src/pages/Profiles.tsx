@@ -4,18 +4,18 @@ import UserProfileCard from '../components/UserProfileCard';
 const Profiles:React.FC = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:3000/results`).then(res => res.json())
-        .then((data) => {
+        fetch(`https://json-server-3-psi.vercel.app/results`).then(res => res.json())
+        .then((data):void => {
             setUsers(data)
-            console.log(data.length)
+            console.log("Users: ",data.length)
         })
     }, []);
   return (
     <section>
         <h2 className='text-center text-4xl font-bold mb-8'>Meet Your Other Half</h2>
-        <div className='flex gap-4 flex-wrap justify-evenly'>
-            {users.map((user) => {
-                return <div className='grow'>
+        <div className='flex gap-4 flex-wrap justify-around'>
+            {users.map((user, indx) => {
+                return <div className='' key={indx}>
                     <UserProfileCard user={user}/>
                 </div>
             })}
