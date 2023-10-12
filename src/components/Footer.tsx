@@ -1,9 +1,30 @@
-import React from 'react'
+import React from "react";
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <section className="bg-slate-900 flex justify-around items-center h-32 text-white">
+      <div>
+        <span className="text-3xl font-bold">Befound</span>
+      </div>
+      <div>
+        <p className="font-extralight">
+          Copyright<span>&#169;</span>Befound <span>2023</span>
+        </p>
+      </div>
+      <div className="flex gap-8">
+        <a href="https://instagram.com/">
+          <FaInstagram />
+        </a>
+        <a href="https://twitter.com/">
+          <FaTwitter />
+        </a>
+        <a href="https://facebook.com">
+          <FaFacebook />
+        </a>
+      </div>
+    </section>
+  );
+};
 
-export default Footer
+export default Footer;

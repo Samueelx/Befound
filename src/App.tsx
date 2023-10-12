@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header"
 import Homepage from "./pages/Homepage"
 import Profiles from "./pages/Profiles"
@@ -10,9 +11,10 @@ function App() {
         <Header />
         <Homepage />
         <Profiles />
+        <Footer />
       </div>
     </>
   )
 }
 
-export default App
+export default App;

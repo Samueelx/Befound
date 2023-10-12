@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import UserProfileCard from '../components/UserProfileCard';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Profiles:React.FC = () => {
     const [users, setUsers] = useState([]);
@@ -19,6 +20,9 @@ const Profiles:React.FC = () => {
                     <UserProfileCard user={user}/>
                 </div>
             })}
+        </div>
+        <div>
+            <ScrollToTop />
         </div>
     </section>
   )
