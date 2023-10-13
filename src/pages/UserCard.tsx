@@ -22,7 +22,8 @@ const UserCard: React.FC = () => {
   }, [uuid]);
   return (
     <>
-      <div className="hover:scale-125 transition-all duration-500 h-screen flex justify-center items-center bg-white rounded-xl p-12 shadow-xl">
+    {/* hover:scale-125 transition-all duration-500 */}
+      <div className="h-screen flex justify-center items-center bg-white rounded-xl p-12 shadow-xl">
         <div className="flex flex-col items-center">
           <div className="relative">
             <div id="activeStatus" className="h-4 w-4 bg-green-500 absolute top-3 right-2 rounded-full ring-4 ring-white"></div>
