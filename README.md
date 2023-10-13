@@ -1,7 +1,7 @@
 # Befound
 ## Description
 This is where you meet your other half. Befound is a dating landing page. It aims at helping you meet and getting to know singles living in your neighborhood or on the other side of the world from your couch.
-#### By Samuel Gitimu, October 2023. 
+**By Samuel Gitimu, October 2023.** 
 ## Setup Requirements
 - **Visual Studio Code** for development/contribution
 - **Git**
@@ -43,9 +43,9 @@ This is where you meet your other half. Befound is a dating landing page. It aim
 
          json-server --watch ./data/db.json
 
-You can then view the json data from your browser by visiting `localhost:3000`.
+You can then view the json data from your browser by visiting `localhost:3000/results`.
 
-Alternatively, you can visit this page to view the data, [I deployed the json file on Vervel](https://json-server-3-psi.vercel.app/results)
+Alternatively, you can visit this page to view the data: [I deployed the json file on Vervel](https://json-server-3-psi.vercel.app/results)
 
 ### Alternatively, Visit the live link
 The web application is deployed, visit this Link: [https://befound.vercel.app/](https://befound.vercel.app/)
