@@ -20,4 +20,15 @@ export interface User {
   };
   cell: string;
   email: string;
+  login: Login;
+}
+
+interface Login {
+  uuid: string;
+  username?: string;
+  password?: string;
+  salt?: string;
+  md5? :string;
+  sha1? :string;
+  sha256?: string;
 }

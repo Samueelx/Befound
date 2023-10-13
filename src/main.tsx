@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import UserCard from './pages/UserCard.tsx';
 import ErrorPage from './pages/ErrorPage.tsx';
 
 const router = createBrowserRouter([
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/users/:id",
-    element: <h2>User Specific Profile</h2>
+    element: <UserCard />
   }
 ]);
 
