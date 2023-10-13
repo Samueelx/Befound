@@ -5,6 +5,8 @@ This is where you meet your other half. Befound is a dating landing page. It aim
 ## Setup Requirements
 - **Visual Studio Code** for development/contribution
 - **Git**
+- **Node**
+- **npm** - the package manager for the Node JavaScript platform
 
 ## ToDo
  - [ ] Add header and footer sections to the individual users page/template.
